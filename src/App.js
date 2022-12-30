@@ -176,7 +176,9 @@ function App() {
     <div className="cuerpo">
     <div className="card calculadora bg-dark rounded-2 border border-dark ">
       <div className="card-header bg-secondary rounded-top p-3 m-0">
+      <span className="brand">CALCUTRONIC-3000</span>        
         <Screen resultado={ant + pos} />
+        
       </div>
       <div className="card-body rounded-bottom p-3 bgKeydo">
         <div className="row">
