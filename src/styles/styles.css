@@ -13,17 +13,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.navbar {
+.navBar {   
+  width: 100%;
   margin-bottom: 10rem;
   height: 5rem;
   background-color: #205295 !important;
 }
-.navbar-nav {
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.social {
+  display: flex;
+  flex-direction: row;
   margin-left: auto;
 }
 .logo {
   width: 4rem;
   height: 4rem;
+  margin: 6px;
 }
 #root {
   height: 100vh !important;
